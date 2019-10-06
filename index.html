@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [6,8,9,57,96,34,114];
+    let max = arr[0];
+    document.write("Mảng ban đầu là " + arr + "<br>");
+    for(let value in arr) {
+        if(arr[value] > max) {
+            max = arr[value];
+        }
+    }
+    document.write("Giá trị lớn nhất trong mảng là " + max);
+</script>
+</body>
+</html>
